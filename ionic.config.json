@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "customer": {
+      "name": "customer",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "react",
+      "root": "packages/customer"
+    },
+    "employee": {
+      "name": "employee",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "react",
+      "root": "packages/employee"
+    }
+  }
+}
