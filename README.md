@@ -178,6 +178,6 @@ npx lerna clean -y && npx lerna bootstrap --hoist
 
 This will hoist common dependencies into the root `node_modules` folder so that each project referring to, for instance, React, would point to a single file location - resolving the issue.
 
-## Issues, Bugs, and Enhancements
+# Issues, Bugs, and Enhancements
 
 Happy to help anyone following this process encountering any issues or bugs. I'm also happy to take requests to enhance this setup. Just leave an Issue in this repository and I'll make sure to respond. Happy coding!
