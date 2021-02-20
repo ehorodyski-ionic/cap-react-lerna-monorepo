@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@acme/common": "^0.0.0",
     "@capacitor/android": "~2.4.6",
     "@capacitor/core": "2.4.6",
     "@capacitor/ios": "~2.4.6",

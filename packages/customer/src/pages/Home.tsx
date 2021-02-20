@@ -5,8 +5,9 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import ExploreContainer from "../components/ExploreContainer";
 import "./Home.css";
+
+import { AcmeToast } from "@acme/common";
 
 const Home: React.FC = () => {
   return (
@@ -22,7 +23,7 @@ const Home: React.FC = () => {
             <IonTitle size="large">Customer</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+        <AcmeToast />
       </IonContent>
     </IonPage>
   );
